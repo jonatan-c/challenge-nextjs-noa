@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Challenge Frontend - Noa Experience
 
-## Getting Started
+## Descripcion
 
-First, run the development server:
+La pagina web permite traer 151 pokemons y mostrarlos en un grafo, al hacerle click a algun nombre, mostrara un card con mas informacion . Se decicidio usar Next y TailwindCSS por su facilidad de uso y rapidez en el desarrollo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Para obtener esta información, esta aplicación hace uso de la función `getStaticProps` de Next.js. Esta función se ejecuta en el servidor cuando la aplicación se está construyendo, lo que permite a los desarrolladores obtener los datos necesarios para que una página se muestre de forma estática sin tener que realizar una solicitud al servidor, así los usuarios obtienen toda la información sobre los pokemones sin tener que esperar.
+
+Opte por esa forma por recomendacion de Next.js donde plantea que se debe intentar renderizar todo en el servidor y para este caso es perfecto , ya que yo se que los datos no van a cambiar y no necesito hacer una llamada a la api cada vez que se renderiza la pagina. 
+
+## DEMO 
+
+[DEMO]( )
+
+
+## Tecnologias
+
+- Next.js
+- React
+- Typescript
+- TailwindCSS
+- Eslint
+- Prettier
+
+## Instalacion y ejecucion
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+yarn install
+yarn run dev
+```
