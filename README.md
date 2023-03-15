@@ -10,7 +10,7 @@ Opte por esa forma por recomendacion de Next.js donde plantea que se debe intent
 
 ## DEMO 
 
-[DEMO](https://vercel.com/jonatan-c/challenge-nextjs-noa)
+[DEMO](https://challenge-nextjs-noa.vercel.app/)
 
 
 ## Tecnologias
